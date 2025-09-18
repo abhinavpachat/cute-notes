@@ -24,12 +24,23 @@ A cute, minimalist notes application built with Tauri (Rust), React, and TypeScr
 
 ![Note Editor](./assets/img3.png)
 
+## Download
+
+Ready-to-use Windows installers are available in the [Releases](../../releases) section:
+
+- **Windows**: `.msi` installer and `.exe` setup
+
+*macOS and Linux builds available for developers who build from source.*
+
+
 ## Getting Started
+
+For developers who want to build from source:
 
 ```bash
 # Clone the repository
 git clone https://github.com/Emmyme/cute-notes
-cd notes-app
+cd cute-notes
 
 # Install dependencies
 npm install
