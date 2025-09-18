@@ -28,7 +28,7 @@ A cute, minimalist notes application built with Tauri (Rust), React, and TypeScr
 
 ```bash
 # Clone the repository
-git clone https://github.com/Emmyme/notes-app
+git clone https://github.com/Emmyme/cute-notes
 cd notes-app
 
 # Install dependencies
