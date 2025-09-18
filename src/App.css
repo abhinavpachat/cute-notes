@@ -15,14 +15,13 @@ body {
     rgba(252, 231, 243, 0.3) 0%,
     rgba(249, 168, 212, 0.3) 100%
   );
-  border-radius: 12px;
   position: relative;
   isolation: isolate;
 }
 
 .custom-title-bar {
-  position: fixed;
-  top: 0;
+  position: sticky;
+  top: 0px;
   left: 0;
   right: 0;
   height: 30px;
@@ -106,12 +105,11 @@ body {
 
 ::-webkit-scrollbar {
   width: 8px;
-  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
+  background: inherit;
+  border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -123,14 +121,6 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(135deg, #be185d 0%, #ec4899 100%);
   box-shadow: 0 2px 8px rgba(236, 72, 153, 0.3);
-}
-
-::-webkit-scrollbar-corner {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-* {
-  scrollbar-color: #ec4899 rgba(255, 255, 255, 0.1);
 }
 
 :root {
@@ -152,7 +142,7 @@ body {
 .app-container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 0rem 2rem 2rem 2rem;
   display: flex;
   flex-direction: column;
 }
@@ -388,7 +378,6 @@ h2 {
 
 @media (max-width: 768px) {
   .app-container {
-    margin-top: 1rem;
     padding: 1rem;
     border-radius: 16px;
   }
@@ -462,7 +451,6 @@ h2 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
   display: flex;
   align-items: center;
@@ -474,7 +462,7 @@ h2 {
 .note-modal {
   background: white;
   border-radius: 20px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
   max-width: 800px;
   width: 100%;
   max-height: 90vh;

@@ -1,7 +1,46 @@
-# Tauri + React + Typescript
+# Notes App
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+A cute, minimalist notes application built with Tauri (Rust), React, and TypeScript. Features a modern glass-morphism design with custom window controls.
 
-## Recommended IDE Setup
+![Main Interface](./assets/img1.png)
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## Features
+
+- **Glass Morphism UI** - Frosted glass effects with subtle blur and opacity
+- **Note Management** - Create, edit, and delete notes seamlessly  
+- **Custom Title Bar** - Native-feeling window controls
+- **Pink Theme** - Elegant color palette with gradients
+- **Responsive Grid** - Clean two-column layout for notes
+- **Note Previews** - Quick content glimpse with full modal view
+
+![Note Modal](./assets/img2.png)
+
+## Tech Stack
+
+- **Frontend**: React + TypeScript + Vite
+- **Backend**: Rust (Tauri)
+- **Styling**: Custom CSS with modern effects
+- **Desktop**: Native window management
+
+![Note Editor](./assets/img3.png)
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/Emmyme/notes-app
+cd notes-app
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run tauri dev
+
+# Build for production
+npm run tauri build
+```
+
+---
+
+*A modern take on note-taking with beautiful design and smooth functionality.*
