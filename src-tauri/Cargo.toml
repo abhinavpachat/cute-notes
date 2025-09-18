@@ -1,5 +1,5 @@
 [package]
-name = "notes-app"
+name = "cute-notes"
 version = "0.1.0"
 description = "A Tauri App"
 authors = ["Emmyme"]

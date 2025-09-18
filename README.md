@@ -1,4 +1,4 @@
-# Notes App
+# Cute Notes App
 
 A cute, minimalist notes application built with Tauri (Rust), React, and TypeScript. Features a modern glass-morphism design with custom window controls.
 
